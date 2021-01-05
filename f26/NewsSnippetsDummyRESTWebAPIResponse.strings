@@ -1,0 +1,39 @@
+/* 
+  RelativeConnectionsDummyRESTWebAPIResponse.strings
+  f28
+
+  Created by David on 03/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byCategoryYear" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"NewsSnippets\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Category\",\"Value\":\"4\"},\n
+				{\"Key\":\"Year\",\"Value\":\"2018\"},\n
+				{\"Key\":\"Text\",\"Value\":\"2\"},\n
+				{\"Key\":\"DatePosted\",\"Value\":\"01/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"ImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Category\",\"Value\":\"4\"},\n
+				{\"Key\":\"Year\",\"Value\":\"2018\"},\n
+				{\"Key\":\"Text\",\"Value\":\"2\"},\n
+				{\"Key\":\"DatePosted\",\"Value\":\"02/02/2018 12:00:00 AM\"},\n
+				{\"Key\":\"ImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

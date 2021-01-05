@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  f26
+
+  Created by David on 28/05/2017.
+  Copyright © 2017 com.smartfoundation. All rights reserved.
+*/
+"CFBundleDisplayName" = "E&S Galeria";		//App name as displayed below app icon
+"CFBundleName" = "f26";				//Short app name, should be 16 characters or less
+"NSHumanReadableCopyright" = "2018 Copyright E&S Galeria";

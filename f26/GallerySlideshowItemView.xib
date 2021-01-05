@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GallerySlideshowItemView" customModule="f26" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="12O-A6-3lb"/>
+                <outlet property="imageLoadingActivityIndicator" destination="0LI-SC-Rjc" id="pnX-mM-sA4"/>
+                <outlet property="itemImageView" destination="obX-C2-kl3" id="x4y-u0-cWd"/>
+                <outlet property="watermarkContainerView" destination="3gs-AY-ec6" id="g9X-y3-Ayk"/>
+                <outlet property="watermarkView" destination="ool-zu-e0h" id="Y0y-cB-WsO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Fc-ze-NAe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="obX-C2-kl3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gs-AY-ec6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ool-zu-e0h">
+                            <rect key="frame" x="147" y="293" width="80" height="80"/>
+                            <color key="backgroundColor" red="0.91764705879999997" green="0.30196078430000001" blue="0.6588235294" alpha="0.39760809075342468" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ool-zu-e0h" secondAttribute="height" multiplier="1:1" id="X1S-co-eIL"/>
+                                <constraint firstAttribute="width" constant="80" id="j5b-ay-P5S"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ool-zu-e0h" firstAttribute="centerY" secondItem="3gs-AY-ec6" secondAttribute="centerY" id="46m-js-pWd"/>
+                        <constraint firstItem="ool-zu-e0h" firstAttribute="centerX" secondItem="3gs-AY-ec6" secondAttribute="centerX" id="gm4-Ff-ywx"/>
+                    </constraints>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="0LI-SC-Rjc">
+                    <rect key="frame" x="177" y="323" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0LI-SC-Rjc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2Le-LK-dfY"/>
+                <constraint firstItem="3gs-AY-ec6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6ah-D3-aFz"/>
+                <constraint firstAttribute="trailing" secondItem="8Fc-ze-NAe" secondAttribute="trailing" id="Dqe-nX-85B"/>
+                <constraint firstAttribute="bottom" secondItem="3gs-AY-ec6" secondAttribute="bottom" id="IJa-pd-izu"/>
+                <constraint firstAttribute="bottom" secondItem="obX-C2-kl3" secondAttribute="bottom" id="Igu-rq-Zrn"/>
+                <constraint firstItem="3gs-AY-ec6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NbZ-Qa-v3S"/>
+                <constraint firstItem="0LI-SC-Rjc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="T8A-FQ-dP1"/>
+                <constraint firstAttribute="trailing" secondItem="obX-C2-kl3" secondAttribute="trailing" id="brG-j7-SX8"/>
+                <constraint firstItem="obX-C2-kl3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gdd-2v-bf6"/>
+                <constraint firstAttribute="trailing" secondItem="3gs-AY-ec6" secondAttribute="trailing" id="iNL-fE-YvP"/>
+                <constraint firstItem="8Fc-ze-NAe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="own-ZQ-dYW"/>
+                <constraint firstItem="obX-C2-kl3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sHV-F6-g95"/>
+                <constraint firstItem="8Fc-ze-NAe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uCc-Y6-IHd"/>
+                <constraint firstAttribute="bottom" secondItem="8Fc-ze-NAe" secondAttribute="bottom" id="wz4-ih-nyy"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

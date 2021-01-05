@@ -1,0 +1,24 @@
+/* 
+  SOAPDummyResponse.strings
+  f26
+
+  Created by David on 13/08/2017.
+  Copyright © 2017 com.smartfoundation. All rights reserved.
+*/
+
+"text" = "{\n
+\"soap:Envelope\":\n
+	{\"soap:Body\":\n
+		{\"LoadArtworkCommentsResponse\":\n
+			{\"LoadArtworkCommentsResult\":\n
+				{\"text\":\n
+					\"{\\\"ID\\\":0,\\\"Items\\\":[{\\\"ID\\\":1,\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ArtworkID\\\",\\\"Value\\\":\\\"412\\\"},{\\\"Key\\\":\\\"DatePosted\\\",\\\"Value\\\":\\\"01/01/2000\\\"},{\\\"Key\\\":\\\"PostedByName\\\",\\\"Value\\\":\\\"Daddy\\\"},{\\\"Key\\\":\\\"PostedByEmail\\\",\\\"Value\\\":\\\"\\\"},{\\\"Key\\\":\\\"Text\\\",\\\"Value\\\":\\\"This is a message\\\"}]}],\\\"Params\\\":[]}\"\n
+				},\n
+			\"xmlns\":\"http://tempuri.org/\"\n
+			},\n
+		\"xmlns:soap\":\"http://www.w3.org/2003/05/soap-envelope\",\n
+		\"xmlns:xsd\":\"http://www.w3.org/2001/XMLSchema\",\n
+		\"xmlns:xsi\":\"http://www.w3.org/2001/XMLSchema-instance\"\n
+		}\n
+	}\n
+}";

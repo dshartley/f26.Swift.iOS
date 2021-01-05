@@ -1,0 +1,22 @@
+/* 
+  SOAPRequestConfig.strings
+  f26
+
+  Created by David on 25/10/2017.
+  Copyright © 2017 com.smartfoundation. All rights reserved.
+*/
+
+"loadArtworksSOAPUrl" = "http://www.davidhartleyart.com/WebServices/LoadArtWorksWebService.asmx";
+"loadArtworksSOAPRequest" = "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\"><soap12:Body><LoadArtWorksByPreviousArtworkID xmlns=\"http://tempuri.org/\"><selectItemsAfterPreviousYN>%@</selectItemsAfterPreviousYN><previousArtWorkID>%@</previousArtWorkID><category>%@</category><year>%@</year><numberofItemsToLoad>%@</numberofItemsToLoad><dataJSONString></dataJSONString></LoadArtWorksByPreviousArtworkID></soap12:Body></soap12:Envelope>";
+
+"addLikeSOAPUrl" = "http://www.davidhartleyart.com/WebServices/AddArtworkLikeWebService.asmx";
+"addLikeSOAPRequest" = "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\"><soap12:Body><AddArtworkLike xmlns=\"http://tempuri.org/\"><artworkID>%@</artworkID><dataJSONString></dataJSONString></AddArtworkLike></soap12:Body></soap12:Envelope>";
+
+"loadArtworkCommentsSOAPUrl" = "http://www.davidhartleyart.com/WebServices/LoadArtworkCommentsWebService.asmx";
+"loadArtworkCommentsSOAPRequest" = "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\"><soap12:Body><LoadArtworkComments xmlns=\"http://tempuri.org/\"><artworkID>%@</artworkID><dataJSONString></dataJSONString></LoadArtworkComments></soap12:Body></soap12:Envelope>";
+
+"saveArtworkCommentSOAPUrl" = "http://www.davidhartleyart.com/WebServices/SaveArtworkCommentWebService.asmx";
+"saveArtworkCommentSOAPRequest" = "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\"><soap12:Body><SaveArtworkComment xmlns=\"http://tempuri.org/\"><jsonString>%@</jsonString></SaveArtworkComment></soap12:Body></soap12:Envelope>";
+
+"loadAwardsSOAPUrl" = "http://www.davidhartleyart.com/WebServices/LoadAwardsWebService.asmx";
+"loadAwardsSOAPRequest" = "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\"><soap12:Body><LoadAwardsByCategoryYear xmlns=\"http://tempuri.org/\"><category>%@</category><year>%@</year><dataJSONString></dataJSONString></LoadAwardsByCategoryYear></soap12:Body></soap12:Envelope>";

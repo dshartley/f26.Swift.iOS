@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  f26
+
+  Created by David on 28/05/2017.
+  Copyright © 2017 com.smartfoundation. All rights reserved.
+*/
+
+"SeeAllArtworkComments" = "See all %@ comments";
+"Like0" = "Like";
+"Like1" = "%@ like";
+"LikeN" = "%@ likes";
+
+/* Sign In */
+
+"AlertTitleSignIn"						= "Private content";
+"AlertMessageSignIn" 					= "This content is for invited guests only.";
+"AlertMessageSignInPasswordPlaceholder" = "Enter access code";
+"AlertActionTitleEnter" 				= "Enter";
+"AlertActionTitleCancel" 				= "Cancel";

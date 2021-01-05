@@ -1,0 +1,11 @@
+/*
+ RESTWebAPIConfig.strings
+ f28
+ 
+ Created by David on 03/02/2018.
+ Copyright © 2018 com.smartfoundation. All rights reserved.
+ */
+
+// NewsSnippets
+"NewsSnippetsSelectByCategoryYearUrl" = "http://www.davidhartleyart.com/api/newssnippets/select/category/%@/year/%@";
+
